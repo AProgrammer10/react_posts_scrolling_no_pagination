@@ -1,0 +1,25 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.3)
+}
+
+.myModalContent {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 250px;  
+}
+
+/*.class1.class2 { Описание правил стиля }
+стиль применяется только для элементов, у которых одновременно заданы классы class1 и class2,
+т. е. в коде HTML используется конструкция <E class="class1 class2>*/
+.myModal.active { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
